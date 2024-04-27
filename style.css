@@ -1,0 +1,379 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background: #dcc097;
+    color: black;
+    font-family: 'Poor Story', cursive; 
+     
+}
+
+/* Header  */
+
+#header{
+    background: #9abd49;
+    width: 1400px;
+    height: 150px;
+    margin: 20px auto;
+    font-family: 'Potta One', cursive;
+    border-radius: 20px;
+}
+
+nav{
+    font-family: 'Potta One', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 6%; 
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav img{
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+    float: left;
+    border-right: solid 3px black;
+}
+
+#right ul li a:link{
+    color:black;
+    text-decoration: none;
+}
+
+#right ul li a:visited{
+    color:black;
+}
+
+#right ul li a:hover{
+    color:black;
+    text-decoration: underline solid white 2px;
+}
+
+#right ul li a:active{
+    color:gray;
+}
+
+#left{
+    width: 250px;
+    float: left;
+    display: flex;
+    position:relative;
+}
+
+.sign{
+    padding-left: 5px;
+    margin: 15px 10px;
+    width: 150px;
+    float: right;
+    font-family: poppins, sans-serif;
+    font-style: normal;
+}
+
+#left h2{
+    font-size: 50px;
+}
+
+#left p{
+    font-size: 15px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+#right{
+    margin: 15px;
+    flex:1;
+    text-align: right;
+}
+
+#right ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+#right ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+/* Header ends  */
+
+/* Container  */
+
+#container{
+    width:1350px;
+    font-family: 'Poor Story', cursive;
+    margin: 10px auto;
+}
+
+.clearfix{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#grp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.wrap{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    width:468px;
+    position: relative;
+    height: 490px;
+}
+
+.wrap img{
+    height: 100px;
+    width: 150px;
+    margin: 20px;
+    border: solid 2px red;
+    border-radius: 93px;
+}
+
+.wrap .wrapp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#wrap1{
+    font-size: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#wrap2,#wrap3,#wrap4
+{
+    &:hover{
+        background-color: yellow;
+    }
+    cursor: pointer;
+}
+#wrap2{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    width: 222px;
+    background: #ff1493;
+    text-align: center;
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: bold;
+}
+
+#wrap3{
+    position: absolute;
+    top: 220px;
+    left: 200px;
+    width: 222px;
+    background: #9BF8FE;
+    text-align: center;
+    font-family: 'Potta One', cursive;
+}
+
+#wrap4{
+    position: absolute;
+    top: 390px;
+    left: 200px;
+    width: 225px;
+    background: #ffe666; 
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.bottom #join{
+    font-size: 28px;
+    margin-top: 20px;
+    text-indent: 25px;
+}
+
+.bottom a:link {
+    color:#06B0A5;
+    text-decoration: none;
+}
+
+.bottom a:visited{
+    color:#06B0A5;
+}
+
+.bottom a:hover{
+    color:brown;
+    text-decoration: underline;
+}
+
+.bottom a:active{
+    color:black;
+}
+
+#container .bottom #quote{
+    background: #F6EEE3;
+    font-size: 20px;
+    font-weight: bold;
+    padding:15px;
+}
+
+#container .bottom #quote p{
+    margin-top: 5px;
+    text-align: end;
+}
+
+#container .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#container .intro .head{
+    margin: 40px 0  20px 0;
+    font-family: 'Potta One', cursive;
+    font-size: 18px;
+}
+
+#container .intro #gray{
+    height: 346px;
+    width: 498px;
+    position: relative;
+    background: #d9d9d9;
+}
+
+#container .intro #gray #vid{
+    position: absolute;
+    height:210px;
+    width: 498px;
+    margin:auto 0;
+    background: black;
+    top: 60px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+#container .intro .show{
+    width:416px;
+    height: 128px;
+    background: #F6EEE3;
+    margin: 30px auto;
+    padding: 40px 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Intro part ends here */
+
+/* Excerpt starts here */
+
+#container #excerpt{
+    display: flex;
+    flex-direction: column;
+    width: 269px;
+    height: 631px;
+    margin: 45px 0;
+    background: #F6EEE3;
+    float: right;
+    justify-content: space-between;
+}
+
+#container #excerpt .head{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#container #excerpt #ex{
+    height: 463px;
+    text-align: center;
+}
+
+#container #excerpt #para{
+    font-size: 25px;
+    align-items: flex-end;
+    margin: 15px;
+}
+
+#excerpt a:link{
+    color:brown;
+    text-decoration: none;
+}
+
+#excerpt a:visited{
+    color:brown;
+}
+
+#excerpt a:hover{
+    color:#06B0A5;
+    text-decoration: underline;
+}
+
+#excerpt a:active{
+    color:black;
+}
+
+.clearfix:after{
+    content:"";
+    display:block;
+    clear: both;
+}
+
+/* Footer starts here */
+
+#footer{
+    margin:15px 0;
+    height: 200px;
+    position:relative;
+}
+
+#footer #editor{
+    width: 680px;
+    height: 85px;
+    background: #F6EEE3;
+    font-size: 25px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#footer #contact{
+    position:absolute;
+    width:412px;
+    height:86px;
+    background:#9abd49;
+    border-radius: 15px;
+    bottom:100px;
+    right:10px;
+    font-family: 'Potta One', cursive;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+#footer #contact img{
+    height: 50px;
+    width: 50px;
+    margin-left:15px;
+}
+
+#footer a:link{
+    color:#06B0A5;
+    text-decoration: none;
+}
+
+#footer a:visited{
+    color:#06B0A5;
+}
+
+#footer a:hover{
+    color:brown;
+    text-decoration: underline;
+}
+
+#footer a:active{
+    color:black;
+}
